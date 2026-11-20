@@ -14,7 +14,7 @@ from typing import Any
 
 import xarray as xr
 
-from open_climate_service.process import process
+from open_geo_service.process import process
 
 
 def _as_dataarray(cube: Any) -> xr.DataArray:

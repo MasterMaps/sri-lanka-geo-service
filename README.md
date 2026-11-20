@@ -1,6 +1,6 @@
 # Sri Lanka Climate Service
 
-This project is based on the [Open Climate Service](https://dhis2.github.io/climate-api/) and provides climate data for Sri Lanka, including ERA5-Land reanalysis, CHIRPS3 precipitation, and WorldPop population data.
+This project is based on the [Open Geo Service](https://open-geo-service.dhis2.org/) and provides climate data for Sri Lanka, including ERA5-Land reanalysis, CHIRPS3 precipitation, and WorldPop population data.
 
 ## Installation
 
@@ -18,7 +18,7 @@ This project is based on the [Open Climate Service](https://dhis2.github.io/clim
 3. **Configure environment:**
    ```sh
    cp .env.example .env
-   # Edit .env and set CLIMATE_API_CONFIG to the absolute path of climate-api.yaml
+   # Edit .env and set GEOSERVICE_CONFIG to the absolute path of geoservice.yaml
    # Set PROJ_DATA to the rasterio proj_data path in your venv
    ```
 

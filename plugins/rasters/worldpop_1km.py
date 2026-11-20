@@ -3,7 +3,7 @@
 WorldPop publishes a global 1 km constrained/UA mosaic per year (2015-2030). The
 data server advertises ``Accept-Ranges`` but ignores actual ``Range`` GETs
 (returns 200, not 206), so partial/windowed reads over ``/vsicurl`` do not work
-(see dhis2/open-climate-service#269). This plugin therefore downloads the ~290 MB
+(see dhis2/open-geo-service#269). This plugin therefore downloads the ~290 MB
 yearly mosaic once, caches it per process, and reads the instance bounding box as
 a windowed clip from the *local* file (cheap, no full raster in memory).
 """
@@ -22,7 +22,7 @@ import requests
 import rioxarray  # noqa: F401  # registers .rio
 import xarray as xr
 
-from open_climate_service.streaming import BaseDatasetPlugin
+from open_geo_service.streaming import BaseDatasetPlugin
 
 logger = logging.getLogger(__name__)
 

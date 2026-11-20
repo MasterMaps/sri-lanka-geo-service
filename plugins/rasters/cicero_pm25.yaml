@@ -17,6 +17,7 @@
   units: "μg m⁻³"
   resolution: 0.01° × 0.01° (~1 km)
   source: CICERO Center for International Climate Research
+  source_url: https://cicero.oslo.no/en
   display:
     colormap: YlOrRd
     range: [0, 75]

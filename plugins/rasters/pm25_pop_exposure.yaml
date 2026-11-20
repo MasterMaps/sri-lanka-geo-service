@@ -13,7 +13,7 @@
       resolution: P1D
   units: "person µg m⁻³"
   resolution: ~1km
-  source: Cicero PM2.5 x WorldPop Global2 1km (OCS population_exposure workflow)
+  source: Cicero PM2.5 x WorldPop Global2 1km (Open Geo Service population_exposure workflow)
   source_url: https://climate-tools.dhis2.org/guides/aggregation/population-weighting/
   display:
     colormap: YlOrRd

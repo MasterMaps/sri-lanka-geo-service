@@ -17,7 +17,7 @@ from typing import Any
 import numpy as np
 import xarray as xr
 
-from open_climate_service.streaming import BaseDatasetPlugin
+from open_geo_service.streaming import BaseDatasetPlugin
 
 logger = logging.getLogger(__name__)
 
@@ -83,6 +83,6 @@ class CopernicusDemPlugin(BaseDatasetPlugin):
         merged = merged.astype(np.float32)
 
         ds = merged.to_dataset(name="elevation")
-        # OCS coverage/publish requires a time dimension; carry one nominal step.
+        # OGS coverage/publish requires a time dimension; carry one nominal step.
         ds = ds.expand_dims(t=[np.datetime64("2010-01-01")])
         return ds

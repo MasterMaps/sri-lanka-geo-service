@@ -19,7 +19,7 @@ from typing import Any
 import numpy as np
 import xarray as xr
 
-from open_climate_service.process import process
+from open_geo_service.process import process
 
 
 def _parse_geometries(geometries: Any) -> tuple[list[Any], list[str]]:
