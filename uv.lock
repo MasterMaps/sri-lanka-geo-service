@@ -2088,7 +2088,7 @@ wheels = [
 ]
 
 [[package]]
-name = "sri-lanka-climate-service"
+name = "sri-lanka-geo-service"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

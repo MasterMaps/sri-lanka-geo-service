@@ -1,5 +1,5 @@
 [project]
-name = "sri-lanka-climate-service"
+name = "sri-lanka-geo-service"
 version = "0.1.0"
 requires-python = ">=3.13,<3.14"
 description = "Open Geo Service instance for Sri Lanka"
