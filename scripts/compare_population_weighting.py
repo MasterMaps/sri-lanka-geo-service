@@ -2,7 +2,7 @@
 """Compare org-unit aggregation **with vs without population weighting** as choropleths.
 
 For each district it aggregates a climate variable two ways against a running
-Open Climate Service instance, then draws side-by-side choropleths plus their
+Open Geo Service instance, then draws side-by-side choropleths plus their
 difference:
 
   * **Unweighted**  — simple spatial mean per district

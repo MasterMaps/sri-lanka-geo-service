@@ -23,7 +23,7 @@ from typing import Any
 import numpy as np
 import xarray as xr
 
-from open_climate_service.streaming import BaseDatasetPlugin
+from open_geo_service.streaming import BaseDatasetPlugin
 from .clms_gpp import _dekadal_dates
 
 logger = logging.getLogger(__name__)
